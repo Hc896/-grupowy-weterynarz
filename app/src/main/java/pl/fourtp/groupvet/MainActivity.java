@@ -20,5 +20,17 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        //suwaczek
+        SeekBar suwak = findViewById(R.id.suwak);
+        TextView suwakinfo = findViewById(R.id.suwakinfo);
+
+        suwak.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
+                suwakinfo.setText("Ile ma lat? " + progress);
+            }
+        });
+
     }
 }
