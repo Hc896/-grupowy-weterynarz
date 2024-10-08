@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package pl.fourtp.groupvet;
 
 import org.junit.Test;
 
