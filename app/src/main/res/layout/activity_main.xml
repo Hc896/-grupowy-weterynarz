@@ -54,6 +54,13 @@
             android:layout_height="51dp"
             android:text="Gatunek" />
 
+        <EditText
+            android:id="@+id/imieNazwiskoWlasciciela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Imię i nazwisko właściciela..." />
     </LinearLayout>
 
 
