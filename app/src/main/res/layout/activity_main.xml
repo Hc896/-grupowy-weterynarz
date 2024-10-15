@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
 
     <LinearLayout
@@ -15,8 +13,8 @@
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-16dp">
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <!-- suwaczek !!! :333 -->
         <LinearLayout
@@ -37,8 +35,7 @@
                 android:layout_width="257dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:max="20"
-                />
+                android:max="20" />
         </LinearLayout>
 
         <TextView
@@ -67,13 +64,12 @@
             android:text="Imię i nazwisko właściciela..." />
 
         <EditText
-            android:id="@+id/imieNazwiskoWlasciciela4"
+            android:id="@+id/imieKota"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
             android:text="Imię i nazwisko kota..." />
-
 
     </LinearLayout>
 
