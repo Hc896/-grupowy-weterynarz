@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bcg">
+    >
 
 
     <LinearLayout
@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:background="@color/bcg"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="-16dp">
@@ -53,7 +52,12 @@
             android:layout_width="140dp"
             android:layout_height="51dp"
             android:text="Gatunek" />
-
+        <EditText
+            android:id="@+id/ile_ma_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
         <EditText
             android:id="@+id/imieNazwiskoWlasciciela"
             android:layout_width="match_parent"
@@ -61,6 +65,16 @@
             android:ems="10"
             android:inputType="text"
             android:text="Imię i nazwisko właściciela..." />
+
+        <EditText
+            android:id="@+id/imieNazwiskoWlasciciela4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Imię i nazwisko kota..." />
+
+
     </LinearLayout>
 
 
