@@ -1,6 +1,8 @@
 package pl.fourtp.groupvet;
 
 import android.os.Bundle;
+import android.widget.SeekBar;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,15 +24,25 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //suwaczek
-        //SeekBar suwak = findViewById(R.id.suwak);
-        //TextView suwakinfo = findViewById(R.id.suwakinfo);
+        SeekBar suwak = findViewById(R.id.suwak);
+        TextView suwakinfo = findViewById(R.id.suwakinfo);
 
-        //suwak.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-        //    @Override
-        //    public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
-        //        suwakinfo.setText("Ile ma lat? " + progress);
-        //    }
-        //});
+        suwak.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
+                suwakinfo.setText("Ile ma lat? " + progress);
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
 
     }
 }

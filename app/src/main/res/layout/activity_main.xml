@@ -12,9 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:orientation="vertical">
 
         <!-- suwaczek !!! :333 -->
         <LinearLayout
